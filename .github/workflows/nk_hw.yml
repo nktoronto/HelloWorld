@@ -28,5 +28,5 @@ jobs:
     - name: install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ nkhw1.surge.sh --token ${{secret.SURGE_SECRET_UBUNTU}}
+      run: surge ./ nkhw1.surge.sh --token ${{secrets.SURGE_SECRET_UBUNTU}}
     
